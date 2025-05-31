@@ -1,0 +1,84 @@
+body {
+    background-color: lavenderblush;
+    background-image: url('images/sunset.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    background-size: 200px;
+}
+
+p {
+    font-size: 64px;
+    background-image: url('images/fone.jpg');
+    background-size: contain;
+    text-align: center;
+    color: darkblue;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+#div1 {
+    background-image: url('images/31000_F.jpg');
+    background-size: cover;
+    border: 20px dotted darkcyan;
+}
+
+#img1 {
+    margin: 20px;
+    width: 40%;
+    border: 15px inset goldenrod;
+    transition: transform 0.5s;
+}
+#img1:hover {
+    transform: scale(1.05);
+}
+
+#img2 {
+    margin: 20px;
+    width: 40%;
+    border: 15px dashed teal;
+    transition: opacity 0.5s;
+}
+
+#img2:hover {
+    opacity: 0.8;
+}
+
+
+#div2 {
+    width: 50%;
+    border: 20px ridge lightseagreen;
+    background-image: 
+        url('images/Sunset-Transparent.png'),
+        url('images/sky.png');
+    background-blend-mode: lighten;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center center, center center;
+    background-size: contain, cover;
+}
+
+
+#img3 {
+    width: 40%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10%;
+    box-shadow: 5px 5px 20px gray;
+    transition: transform 0.5s ease-in-out;
+}
+#img3:hover {
+    transform: rotate(10deg);
+}
+
+#div3 {
+    width: 400px;
+    height: 400px;
+    background: repeating-conic-gradient(#fdd835, #ff7043, #29b6f6);
+    border-radius: 50%;
+    border: 10px solid black;
+    margin: 20px;
+}
